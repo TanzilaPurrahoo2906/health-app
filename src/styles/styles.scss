@@ -1,0 +1,107 @@
+@import './colors';
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: $black;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  border: none;
+  color: $orange;
+}
+
+h1, h3, h4 {
+  margin: 0.5rem 0;
+}
+
+.main-container {
+  margin-top: 3rem;
+}
+
+.app {
+  padding: 3rem 4rem 4rem;
+}
+
+.accordion {
+  margin-top: 2rem;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+
+  .text-content {
+    flex: 1 1 55%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 4rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  }
+
+  .image-container {
+    min-width: 250px;
+    text-align: right;
+
+    img {
+      width: 90%;
+    }
+  }
+}
+
+.header {
+  color: $orange;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+
+  .text-left {
+    flex: 0 0 40%;
+    margin-left: 2rem;
+
+    @media (max-width: 768px) {
+      margin-left: 0;
+    }
+  }
+
+  .image-right {
+    img {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .info-section {
+    flex-direction: column;
+
+    .text-left,
+    .image-right {
+      flex: 1 1 auto;
+    }
+
+    .image-right {
+      margin-top: 1.5rem;
+    }
+  }
+}

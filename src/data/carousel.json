@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "gastrointestinal",
+      "category": "Gastrointestinal",
+      "title": "Opioid-induced Constipation",
+      "description": "OIC is a common, yet frequently under-recognised, poorly managed complication of opioid therapy.¹"
+    },
+    {
+      "id": "oncology",
+      "category": "Oncology",
+      "title": "Breakthrough Cancer Pain",
+      "description": "OIC is a common, yet frequently under-recognised, poorly managed complication of opioid therapy.¹"
+    },
+    {
+      "id": "injury",
+      "category": "Injury",
+      "title": "Strain Muscle",
+      "description": "A muscle strain happens when fibers in a muscle are overstretched or torn. It often occurs during sudden."
+    }
+  ]
+}

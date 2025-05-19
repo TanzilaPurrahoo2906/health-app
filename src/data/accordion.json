@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": "gastrointestinal",
+      "category": "Gastrointestinal",
+      "title": "Opioid-induced Constipation",
+      "description": "OIC is a common, yet frequently under-recognised, poorly managed complication of opioid therapy.¹",
+      "accordion": {
+        "medicalEducation": "Here you will find educational resources focused on the diagnosis and treatment of OIC.",
+        "medicalResources": "Here you will find a collection of published data, clinical expertise and guidance for the various treatment options available for OIC.",
+        "diseasePages": "Here you will find expert medical resources delving into the pathology and epidemiology of OIC as well as its impact on patient quality of life."
+      }
+    },
+    {
+      "id": "oncology",
+      "category": "Oncology",
+      "title": "Breakthrough Cancer Pain",
+      "description": "Transient exacerbations of pain, known as BtCP, are a common problem in cancer patients, as a direct or indirect result of the cancer itself, or the cancer treatment.2",
+      "accordion": {
+        "medicalEducation": "Here you will find educational resources focused on the diagnosis and treatment of OIC.",
+        "medicalResources": "Here you will find a collection of published data, clinical expertise and guidance for the various treatment options available for OIC.",
+        "diseasePages": "Here you will find expert medical resources delving into the pathology and epidemiology of OIC as well as its impact on patient quality of life."
+      }
+    },
+    {
+      "id": "injury",
+      "category": "Injury",
+      "title": "Strain Muscle",
+      "description": "A muscle strain happens when fibers in a muscle are overstretched or torn. If often occurs during sudden movements, like sprinting or jumping.",
+      "accordion": {
+        "medicalEducation": "Here you will find educational resources focused on the diagnosis and treatment of BtCP.",
+        "medicalResources": "Here you will find a collection of published data, clinical expertise and guidance for the various treatment options available for BtCP.",
+        "diseasePages": "Here you will find expert medical resources delving into the pathology and epidemiology of BtCP as well as its impact on patient quality of life."
+      }
+    }
+  ]
+}

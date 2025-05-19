@@ -1,0 +1,104 @@
+@import './colors';
+
+.accordion-header {
+  background-color: $light-orange;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  cursor: pointer;
+
+  .accordion-left-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: $orange;
+    border-radius: 50%;
+    margin-right: 10px;
+
+    img {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+    }
+  }
+
+  .accordion-icon {
+    margin-left: auto;
+
+    img.arrow-icon {
+      width: 16px;
+      height: 10px;
+    }
+  }
+}
+
+.accordion-body {
+  padding: 0 1rem 1rem 1rem;
+  border: 1px solid $orange;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.accordion-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.accordion-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1.5rem 1.5rem 0 1.5rem;
+
+  @media (max-width: 768px) {
+    margin: 1.5rem 0 0 0;
+  }
+}
+
+.accordion-description {
+  margin: 0 1.5rem !important;
+
+  @media (max-width: 768px) {
+    margin: 0 !important;
+  }
+}
+
+.accordion-section {
+  h5 {
+    margin-bottom: 6px;
+    font-size: 1rem;
+    color: $orange;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+    color: $dark-grey;
+    line-height: 1.5;
+  }
+}
+
+.accordion-heading-with-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-icon-right {
+  width: 8px;
+  height: 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
